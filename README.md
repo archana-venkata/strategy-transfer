@@ -8,3 +8,6 @@
 
 **train.py**
 : Function definitions used for training, given transferred strategies S_G and an environment.
+
+**strategies.json**
+: Contains examples of instantiated strategies for each environment
