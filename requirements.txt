@@ -1,3 +1,12 @@
-gym==0.21.0
-numpy==1.21.5
-networkx==2.8
+addict==2.4.0
+getch==1.0
+google-auth-oauthlib==1.2.0
+-e gym_envs/
+opencv-python==4.9.0.80
+plotly==5.20.0
+sb3-contrib==2.2.1
+scikit-learn==1.4.1.post1
+tensorflow==2.16.1
+torch-tb-profiler==0.4.3
+stable-baselines3==2.2.1
+gymnasium==0.29.1

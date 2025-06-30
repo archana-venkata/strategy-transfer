@@ -1,5 +1,5 @@
 import logging
-from gym.envs.registration import register
+from gymnasium.envs.registration import register
 
 logger = logging.getLogger(__name__)
 
@@ -20,9 +20,11 @@ register(
 )
 
 register(
-    id='SimpleBankHeist-v0',
-    entry_point='gym_envs.envs.gym_bankheist.custom_bankheist_env:BankHeistEnv',
-    kwargs={
-        'config_file': ""
-    }
+    id='SimpleMinecraft-v0',
+    entry_point='gym_envs.envs.gym_minecraft.custom_minecraft_env:MinecraftEnv',
+)
+
+register(
+    id='SimpleSaladChef-v0',
+    entry_point='gym_envs.envs.gym_saladchef.custom_saladchef_env:SaladChefEnv',
 )
